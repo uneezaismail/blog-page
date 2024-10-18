@@ -104,4 +104,8 @@
       align-items: center;
       text-align: center;
     }
+
+    .made-by{
+      font-size: 1rem;
+    }
   }

@@ -236,4 +236,8 @@
     hr {
       margin: 0.5rem 0;
     }
+
+    .made-by{
+      font-size: 0.5rem;
+    }
   }
