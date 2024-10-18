@@ -133,6 +133,9 @@
       font-size: 0.8rem;
     }
   
+    .footer{
+      padding-bottom: 1rem;
+    }
     .footer-sect {
       padding-top: 0.5rem;
     }
@@ -158,7 +161,7 @@
     }
   
     .delivery-head {
-      font-size: 0.5rem;
+      font-size: 0.6rem;
       color: rgb(186, 182, 182);
     }
   
@@ -174,13 +177,13 @@
     }
   
     .app-logo-1 {
-      width: 50px;
+      width: 60px;
       border-radius: 0.2rem;
       margin-right: 0.2rem;
     }
   
     .app-logo-2 {
-      width: 50px;
+      width: 60px;
       height: 1rem;
     }
   
@@ -189,7 +192,7 @@
     }
   
     .social span {
-      font-size: 0.5rem;
+      font-size: 0.7rem;
       color: white;
     }
   
