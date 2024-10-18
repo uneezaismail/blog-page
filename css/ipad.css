@@ -1,0 +1,103 @@
+@media (min-width: 786px) and (max-width: 992px) {
+    .header {
+      padding: 1rem 4rem;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .website {
+      font-size: 1.8rem;
+    }
+  
+    #nav-menu {
+      display: none;
+    }
+  
+    .main {
+      width: 100%;
+    }
+  
+    #home {
+      width: 90%;
+      padding: 1.5rem 1rem;
+    }
+  
+    .news {
+      font-size: 3rem;
+    }
+  
+    .home-para {
+      font-size: 1.1rem;
+      margin: 1rem;
+    }
+  
+    .image-wrapper {
+      max-height: 300px;
+    }
+  
+    .home-image {
+      height: 300px;
+    }
+  
+    .img-caption {
+      font-size: 1.2rem;
+    }
+  
+    .news-item img {
+      width: 30%;
+      height: 12rem;
+    }
+  
+    .news-content {
+      margin-left: 1rem;
+    }
+  
+    .news-content p {
+      font-size: 1.5rem;
+    }
+  
+    .comments-section {
+      padding: 1rem 3rem;
+    }
+  
+    .footer-sect {
+      padding-top: 1rem;
+    }
+  
+    .footer-content {
+      align-items: center;
+      padding-bottom: 3rem;
+    }
+  
+    .delivery-head {
+      font-size: 1rem;
+      color: rgb(186, 182, 182);
+    }
+  
+    .delivery-order {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .delivery-order p {
+      color: white;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-1 {
+      width: 100px;
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-2 {
+      width: 100px;
+      height: 2.5rem;
+    }
+  
+    .copyright {
+      align-items: center;
+      text-align: center;
+    }
+  }

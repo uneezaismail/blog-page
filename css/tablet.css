@@ -1,0 +1,166 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .header {
+      padding: 1rem 3rem;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .website {
+      font-size: 1.8rem;
+    }
+  
+    #nav-menu {
+      display: none;
+    }
+  
+    .main {
+      width: 100%;
+    }
+  
+    #home {
+      width: 90%;
+      padding: 1.5rem 1rem;
+    }
+  
+    .news {
+      font-size: 2.5rem;
+    }
+  
+    .home-para {
+      font-size: 0.9rem;
+      margin: 1rem;
+    }
+  
+    .image-wrapper {
+      max-height: 250px;
+    }
+  
+    .home-image {
+      height: 250px;
+    }
+  
+    .img-caption {
+      font-size: 1rem;
+    }
+  
+    .news-item img {
+      width: 30%;
+      height: 10rem;
+    }
+  
+    .news-content {
+      margin-left: 1rem;
+    }
+  
+    .news-content p {
+      font-size: 1.5rem;
+    }
+  
+    .load-container {
+      margin: 3rem;
+    }
+  
+    .load {
+      font-size: 1rem;
+    }
+  
+    .comments-section {
+      padding: 1rem 3rem;
+    }
+  
+    .footer-sect {
+      padding-top: 1rem;
+    }
+  
+    .location-heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .location {
+      color: rgb(186, 182, 182);
+      font-size: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+  
+    .location-bold {
+      font-size: 0.9rem;
+    }
+    .footer-content {
+      align-items: center;
+      padding-bottom: 3rem;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+    }
+  
+    .delivery-head {
+      font-size: 0.9rem;
+      color: rgb(186, 182, 182);
+    }
+  
+    .delivery-order {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .delivery-order p {
+      color: white;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-1 {
+      width: 80px;
+      border-radius: 0.2rem;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-2 {
+      width: 80px;
+      height: 1.7rem;
+    }
+  
+    .social {
+      gap: 1.5rem;
+    }
+  
+    .social span {
+      font-size: 1rem;
+      color: white;
+    }
+  
+    .copyright {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .copyright p {
+      font-size: 1rem;
+    }
+  
+    #toggle-menu {
+      top: 80px;
+      left: 50%;
+      width: 50%;
+      height: 25rem;
+    }
+  
+    .menu-heading {
+      font-size: 1.7rem;
+    }
+  
+    #toggle-menu li {
+      margin: 1.2rem 0;
+    }
+  
+    #toggle-menu a {
+      color: white;
+      font-size: 1.5rem;
+    }
+  
+    .close-icon {
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+  }

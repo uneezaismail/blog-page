@@ -1,0 +1,229 @@
+@media only screen and (max-width: 600px) {
+    .header {
+      padding: 0.5rem 1rem;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .website {
+      font-size: 1.2rem;
+    }
+  
+    #nav-menu {
+      display: none;
+    }
+  
+    .main {
+      width: 100%;
+    }
+  
+    #home {
+      width: 100%;
+      padding: 1.5rem 1rem;
+    }
+  
+    .news {
+      font-size: 1.7rem;
+    }
+  
+    .home-para {
+      font-size: 0.6rem;
+      margin: 0.5rem;
+    }
+  
+    .image-wrapper {
+      max-height: 150px;
+    }
+  
+    .home-image {
+      height: 150px;
+    }
+  
+    .img-caption {
+      font-size: 0.6rem;
+    }
+  
+    .suggested-news {
+      width: 90%;
+      margin: 2rem auto;
+    }
+    .news-item img {
+      width: 30%;
+      height: 5rem;
+    }
+    .img-time {
+      font-size: 0.5rem;
+      margin-top: 0.2rem;
+    }
+  
+    .news-item {
+      margin-bottom: 0.5rem;
+    }
+    hr {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      margin: 0.5rem 0;
+    }
+    .news-content {
+      margin-left: 1rem;
+    }
+  
+    .news-content p {
+      font-size: 1rem;
+    }
+  
+    .load-container {
+      display: flex;
+      justify-content: center;
+      margin: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .order,
+    .sign,
+    .load {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      font-weight: 300;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .load {
+      margin-top: 1rem;
+    }
+  
+    .comments-section {
+      padding: 1rem;
+      margin-top: 0.5rem;
+    }
+  
+    .comment-form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0.5rem;
+    }
+  
+    #comments h2 {
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+    }
+  
+    .comment-form textarea,
+    .comment-form input {
+      padding: 0.3rem;
+      margin-bottom: 0.4rem;
+      border-radius: 4px;
+      font-size: 0.6rem;
+    }
+  
+    .comment-form textarea {
+      height: 50px;
+    }
+  
+    .comment-form button {
+      padding: 0.4rem;
+      font-size: 0.8rem;
+    }
+  
+    .footer-sect {
+      padding-top: 0.5rem;
+    }
+  
+    .location-heading {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+  
+    .location {
+      color: rgb(186, 182, 182);
+      font-size: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .location-bold {
+      font-size: 0.5rem;
+    }
+    .footer-content {
+      align-items: center;
+      padding-bottom: 1.5rem;
+      justify-content: space-between;
+    }
+  
+    .delivery-head {
+      font-size: 0.5rem;
+      color: rgb(186, 182, 182);
+    }
+  
+    .delivery-order {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .delivery-order p {
+      color: white;
+      margin-right: 0.2rem;
+    }
+  
+    .app-logo-1 {
+      width: 50px;
+      border-radius: 0.2rem;
+      margin-right: 0.2rem;
+    }
+  
+    .app-logo-2 {
+      width: 50px;
+      height: 1rem;
+    }
+  
+    .social {
+      gap: 0.5rem;
+    }
+  
+    .social span {
+      font-size: 0.5rem;
+      color: white;
+    }
+  
+    .copyright {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .copyright p {
+      font-size: 0.5rem;
+    }
+  
+    #toggle-menu {
+      top: 80px;
+      left: 50%;
+      width: 60%;
+      height: 18rem;
+    }
+  
+    .menu-heading {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+  
+    #toggle-menu li {
+      margin: 1rem 0;
+    }
+  
+    #toggle-menu a {
+      color: white;
+      font-size: 1rem;
+    }
+  
+    .close-icon {
+      top: 0.2rem;
+      right: 0.2rem;
+      font-size: 1rem;
+    }
+  
+    hr {
+      margin: 0.5rem 0;
+    }
+  }

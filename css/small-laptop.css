@@ -1,0 +1,107 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header {
+      padding: 1rem 4rem;
+    }
+  
+    .website {
+      font-size: 2rem;
+    }
+  
+    .nav-items li a {
+      font-size: 1.1rem;
+    }
+  
+    .order,
+    .sign,
+    .load {
+      padding: 0.7rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  
+    .main {
+      width: 100%;
+    }
+  
+    #home {
+      width: 90%;
+      padding: 1.5rem 1rem;
+    }
+  
+    .news {
+      font-size: 3.5rem;
+    }
+  
+    .home-para {
+      font-size: 1.2rem;
+      margin: 1.2rem;
+    }
+  
+    .image-wrapper {
+      max-height: 350px;
+    }
+  
+    .home-image {
+      height: 350px;
+    }
+  
+    .img-caption {
+      font-size: 1.3rem;
+    }
+  
+    .news-item img {
+      width: 35%;
+      height: 14rem;
+    }
+  
+    .news-content {
+      margin-left: 1rem;
+    }
+    .news-content p {
+      font-size: 1.8rem;
+    }
+  
+    .comments-section {
+      padding: 2rem 4rem;
+    }
+  
+    .footer-sect {
+      padding-top: 1.5rem;
+    }
+  
+    .footer-content {
+      align-items: center;
+      padding-bottom: 4rem;
+    }
+  
+    .delivery-head {
+      font-size: 1.2rem;
+      color: rgb(186, 182, 182);
+    }
+  
+    .delivery-order {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .delivery-order p {
+      color: white;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-1 {
+      width: 120px;
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+    }
+  
+    .app-logo-2 {
+      width: 120px;
+      height: 2.5rem;
+    }
+  
+    .copyright {
+      align-items: center;
+      text-align: center;
+    }
+  }

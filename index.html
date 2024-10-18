@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Essence</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/small-laptop.css">
+    <link rel="stylesheet" href="css/ipad.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="website">Cafe <span class="web-2">Essence</span></h1>
+      <nav id="small-nav">
+        <div class="hamburger" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <section id="toggle-menu" class="hidden">
+          <div class="close-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-xmark"></i>
+          
+          </div>
+          <div class="menu-container">
+            <h3 class="menu-heading">MENU</h3>
+            <hr />
+
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#story">Story</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#community">Community</a></li>
+              <li><a href="#news">News</a></li>
+            </ul>
+          </div>
+        </section>
+      </nav>
+      <nav id="nav-menu">
+        <ul class="nav-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#news">News</a></li>
+          <li><button class="order">Order</button></li>
+          <li><button class="sign">Sign In</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="overlay" class="hidden"></div>
+
+    <main>
+      <div class="main">
+        <section id="home">
+          <h2 class="news">Our News</h2>
+          <p class="home-para">
+            Get the latest updates and deeper coffee experience from Cafe
+            Essence
+          </p>
+          <figure style="width: 100%">
+            <div class="image-wrapper">
+              <img
+                class="home-image"
+                src="https://images.unsplash.com/photo-1464979681340-bdd28a61699e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="store"
+              />
+            </div>
+            <figcaption>
+              <p class="img-caption">
+                Collaboration to Develop Coffee Industry Expertise in Pakistan.
+              </p>
+              <time class="img-time">4 Min . October 14, 2024</time>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+
+      <section class="suggested-news">
+        <hr />
+        <div class="news-item">
+          <img
+            src="https://images.unsplash.com/photo-1501492673258-2bcfc17241fd?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <div class="news-content">
+            <p>
+              Visited Doeseon Sirap Coffee, The Producer of Robusted in Central
+              Java
+            </p>
+            <time class="img-time">Posted on October 12, 2024</time>
+          </div>
+        </div>
+        <hr />
+        <div class="news-item">
+          <img
+            src="https://images.unsplash.com/photo-1620360289812-0abdae69d6d2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <div class="news-content">
+            <p>Cold Brew Coffee, How to Drink Cold Coffee is More Enjoyable</p>
+            <time class="img-time">Posted on October 2, 2024</time>
+          </div>
+        </div>
+        <hr />
+        <div class="news-item">
+          <img
+            src="https://images.unsplash.com/photo-1495862433577-132cf20d7902?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <div class="news-content">
+            <p>
+              Meet Coffee Tonic, the Sensation of Drinking Coffee-Flavored Soda
+            </p>
+            <time class="img-time">Posted on October 9, 2024</time>
+          </div>
+        </div>
+        <hr />
+        <div class="news-item">
+          <img
+            src="https://media.istockphoto.com/id/1282882269/photo/barista-making-latte-art-shot-focus-in-cup-of-milk-and-coffee-vintage-filter-image.webp?a=1&b=1&s=612x612&w=0&k=20&c=pdIfI7SGihwKcXZdq07nwFvU3-SjMy4ukGyEA3XwyVI="
+            alt=""
+          />
+          <div class="news-content">
+            <p>Workshop Coffee Sharing Session</p>
+            <time class="img-time">Posted on October 12, 2024</time>
+          </div>
+        </div>
+        <hr />
+        <div class="news-item">
+          <img
+            src="https://images.unsplash.com/photo-1522725843938-035891590561?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <div class="news-content">
+            <p>Workshop Coffee Brewing</p>
+            <time class="img-time">Posted on October 10, 2024</time>
+          </div>
+        </div>
+
+        <div class="load-container">
+          <button class="load">load more</button>
+        </div>
+      </section>
+    </main>
+
+    <section id="comments" class="comments-section">
+      <h2>Leave a Comment</h2>
+      <form class="comment-form" id="comment-form">
+        <div class="text-mail">
+          <input
+            type="text"
+            id="username"
+            class="user-data"
+            name="username"
+            placeholder="Name (required)"
+            required
+          />
+          <input
+            type="email"
+            name="usermail"
+            id="usermail"
+            class="user-data"
+            placeholder="Email (required)"
+            required
+          />
+        </div>
+        <textarea
+          id="comment-text"
+          name="comment"
+          placeholder="Write your comment here..."
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <section class="footer-sect">
+        <h2 class="location-heading">Our Location</h2>
+        <p class="location">
+          123 Clifton Street, Block 5 Clifton, Karachi, Sindh 75500 Pakistan
+        </p>
+        <p class="location">
+          <span class="location-bold">Customer Service</span>+92 300 *******
+        </p>
+        <p class="location">
+          <span class="location-bold">We are Open from</span> Sun - Mon 10 AM -
+          22 PM
+        </p>
+        <hr />
+      </section>
+
+      <div class="footer-content">
+        <div class="social">
+          <span
+            ><a
+              href="https://www.linkedin.com/in/uneeza-ismail-03a7852b4"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i></a
+          ></span>
+          <span><i class="fa-brands fa-square-instagram"></i></span>
+          <span
+            ><a href="https://github.com/uneezaismail" target="_blank"
+              ><i class="fa-brands fa-github"></i></a
+          ></span>
+          <span><i class="fa-brands fa-x-twitter"></i></span>
+        </div>
+        <div class="delivery-order">
+          <p class="delivery-head">Delivery Order</p>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqs4sYnhanrCbHy4UgKDy7iXYAV_gBScEm92YQOX-zsQkGWH8W_jL5mKA2gIhH1Splxk&usqp=CAU"
+            alt="App Store"
+            class="app-logo-1"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1200px-Google_Play_Store_badge_EN.svg.png"
+            alt="Google Play"
+            class="app-logo-2"
+          />
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          <i class="fa-regular fa-copyright" style="padding-right: 0.2rem"></i
+          >2024 Cafe Essence. All rights reserved
+        </p>
+        <p>Terms and Conditions | Privacy Pelicy</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
