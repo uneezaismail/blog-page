@@ -1,14 +1,19 @@
 @media only screen and (max-width: 600px) {
     .header {
-      padding: 0.5rem 1rem;
+      padding: 0.6rem 1rem;
       flex-direction: row;
       justify-content: space-between;
     }
   
     .website {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
   
+    .hamburger i{
+      font-size: 1.1rem;
+      margin-top: 0.4rem;
+    }
+
     #nav-menu {
       display: none;
     }
@@ -33,6 +38,7 @@
   
     .image-wrapper {
       max-height: 150px;
+      margin-bottom: 0.5rem;
     }
   
     .home-image {
@@ -40,7 +46,8 @@
     }
   
     .img-caption {
-      font-size: 0.6rem;
+      font-size: 0.7rem;
+      word-spacing: 0%;
     }
   
     .suggested-news {
